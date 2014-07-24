@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## My script for Programming Assignment2
 
-## Write a short comment describing this function
+## caching the inverse of a matrix
+
 makeCacheMatrix <- function(x = matrix()){
         m <- NULL
         set <- function(y){
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()){
 
 
 
-## Write a short comment describing this function
+
 cacheSolve <- function(x, ...){
         m <- x$getinverse( )
         if (!is.null(m)){
